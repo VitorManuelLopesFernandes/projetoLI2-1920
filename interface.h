@@ -1,6 +1,6 @@
 #ifndef PROJETOLI2_CAMADADEINTERFACE_H
 #define PROJETOLI2_CAMADADEINTERFACE_H
 
-int jogar(ESTADO *estado, COORDENADA c);
+void mostrar_tabuleiro(ESTADO estado); //imprime tabuleiro
 
 #endif //PROJETOLI2_CAMADADEINTERFACE_H
