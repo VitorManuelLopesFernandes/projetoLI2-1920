@@ -22,6 +22,12 @@ typedef struct {
     int jogador_atual;
 } ESTADO;
 
-ESTADO *inicializar_estado();
+ESTADO *inicializar_estado(); // cria um estado vazio (com o tabuleiro inicializado)
+
+int obter_jogador_atual(ESTADO *estado); // dá o número do jogador atual
+
+int obter_numero_de_jogadas(ESTADO *estado); // dá quantas jogadas foram efetuadas (1 jogada = movimento dos 2 jogadores)
+
+CASA obter_estado_casa(ESTADO *e, COORDENADA c); // dá o estado atual da casa
 
 #endif //PROJETOLI2_CAMADADEDADOS_H
