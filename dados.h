@@ -22,6 +22,12 @@ typedef struct {
     int jogador_atual;
 } ESTADO;
 
+// tab armazena informação sobre o tabuleiro
+// ultima_jogada dá coordenada da última jogada
+// jogadas armazena informações sobre as jogadas
+// num_jogadas dá o número de jogadas feitas
+// jogador_atual dá qual o jogador a jogar    
+
 ESTADO *inicializar_estado(); // cria um estado vazio (com o tabuleiro inicializado)
 
 int obter_jogador_atual(ESTADO *estado); // dá o número do jogador atual
